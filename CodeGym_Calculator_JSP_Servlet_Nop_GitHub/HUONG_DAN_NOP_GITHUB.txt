@@ -1,0 +1,20 @@
+BAI TAP CODEGYM - UNG DUNG CALCULATOR JSP + SERVLET
+
+1. Tai ZIP -> GIAI NEN.
+2. Mo https://github.com/new -> repository: codegym-calculator-jsp-servlet, Public.
+3. Quan trong: UPLOAD CAC FILE BEN TRONG THU MUC DA GIAI NEN,
+   khong upload ca thu muc "CodeGym_Calculator_JSP_Servlet" vao root.
+4. O trang chinh repository PHAI THAY pom.xml, README.md, src/.
+5. Kiem tra tren GitHub:
+   /pom.xml
+   /src/main/webapp/index.jsp
+   /src/main/webapp/result.jsp
+   /src/main/webapp/WEB-INF/web.xml
+   /src/main/java/com/codegym/calculator/Calculator.java
+   /src/main/java/com/codegym/calculator/CalculatorServlet.java
+6. Nop URL repository (khong phai URL file ZIP) len CodeGym.
+7. Chay: mvn clean package, Tomcat 10.1 deploy target/calculator.war
+   Mo http://localhost:8080/calculator/ (neu Tomcat su dung cong 8080).
+
+KHONG tai folder target/ len GitHub.
+Neu AI bao thieu file, chup anh danh sach file GitHub + moi trang code.
